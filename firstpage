@@ -1,0 +1,377 @@
+
+ 
+  <!-- Hero -->
+<div class=" text-center bg-image" style="background-color:rgba(0, 0, 0, 0.6); z-index: 1;" >
+
+  <nav class="navbar navbar-light">
+    <div class="container">
+     
+        <img class="navbar-brand img responsive img-fluid" src="../assets/Netflix_2015_logo.svg" id="logo">
+
+      <form class="d-flex">
+        <select  id="select">
+          <option class="option-lang">English</option>
+          <option class="option-lang">Hindi</option>
+        </select>
+        <a  routerLink="/signin"  class="btn text-light mx-2" id="navbar-button">Sign in</a>
+      </form>
+    </div>
+  </nav>
+
+
+
+<div class="mask" >
+  <div class="card justify-content-center align-items-center h-100">
+    <br><br><br>
+       <h1 class="text-light text-center card-text lh-base" id="card-text">Unlimited movies, TV <br> shows and more.
+      </h1>
+     <h2 class="text-light text-center watch-anywhere">Watch anywhere. Cancel anytime.</h2>
+     <h4 class="text-light text-center ready-to-watch">Ready to watch? Enter your email to create or restart your membership.</h4>
+      <br> 
+      <!-- <input class="input" placeholder="Search for netflix titles and news"> -->
+
+      <!-- <div class="input input-group mb-3"> -->
+        <!-- <input type="text" id=""class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2"> -->
+        <!-- <div class="input-group-append"> -->
+          <!-- <button class="btn text-light rounded-0" id="btn-get-started" type="button">Get Started ></button> -->
+        <!-- </div> -->
+      <!-- </div> -->
+     
+      <div class="container  mb-3" id="email-grp">
+        <input id="email-entry" type="email" placeholder="Email address">
+        <button id="email-submit-btn"> Get Started ></button>
+      </div>
+
+
+ </div>
+</div>
+</div>
+<!-- Hero -->
+
+
+
+
+
+
+
+   
+
+
+
+
+<!-- <div class="container-fluid"> -->
+
+
+    <div class="container-fluid hero-image1 reverse">
+      <div class="row">
+  
+        <div class="col-lg-6 col-md-12 col-sm-12 px-2  align-items-center justify-content-center text-center">
+          <img class="img-fluid" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" >
+         </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12  text-light text-center  my-auto align-items-center" id="text">
+  <h1 class="text-header">Enjoy Your TV</h1>
+    <h4 class="lh-sm text-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+    </div>
+
+
+
+         
+      </div>
+      <br><br><br>
+  </div>
+  
+  
+
+  
+  <div class="container-fluid hero-image1">
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 col-sm-12 text-light my-auto text-center align-items-center" >
+          <h1 class="text-header">Watch everywhere.</h1>
+          <h4 class="lh-sm text-description">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
+                  </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 px-2 align-items-center justify-content-center text-center">
+  <img class="img-fluid" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png " >
+          </div>
+
+         
+      </div>
+      <br>
+      <br>
+      <br>
+  </div>
+  
+  <div class="container-fluid align-items-center hero-image1 reverse">
+    <div class="row ">
+    
+      <div class="col-lg-6 col-md-12 col-sm-12 align-items-center justify-content-center text-center" >
+        <img class="img-fluid " src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" >        
+               </div>
+
+    
+        <div class="col-lg-6 col-md-12 col-sm-12 px-2 text-light text-center my-auto" id="text1">
+            <h1 class="lh-base text-header">Download your shows to watch offline.</h1>
+            <h4 class="lh-sm text-description">Save your favourites easily and always have something to watch.</h4>
+        </div>
+
+  
+                 
+
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+
+  
+  <div class="container-fluid hero-image1">
+      <div class="row ">
+      
+    
+          <div class="col-lg-6 col-md-12 col-sm-12 px-2 text-light text-center my-auto align-items-center" id="text1">
+              <h1 class="lh-base  text-header">Create profiles for children.</h1>
+              <h4 class="lh-sm text-description" >Save your favourites easily and always have something to watch.</h4>
+          </div>
+        
+          <div class="col-lg-6 col-md-12 col-sm-12 align-items-center justify-content-center text-center" >
+  
+            <img class="img-fluid" src="https://occ-0-1492-3662.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420" >        
+            </div>
+
+      </div>
+     
+  </div>
+  
+
+
+
+  
+  <div class="container-fluid text-light hero-image1">
+  <h1 class=" text-center mx-auto pt-5" id="faq-header" >Frequently Asked Questions</h1>
+  <br>
+  <br>
+  <div class="container" id="accordion" >
+  
+  
+  <div class="accordion " id="accordionExample">
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header " id="headingOne">
+          <button class="accordion-button text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is Netflix?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-light lh-base">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, beatae.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+  
+      <br>
+  
+      <div class="accordion " id="accordionExample1">
+      <div class="accordion-item">
+        <h2 class="accordion-header " id="headingTwo">
+          <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How much does netflix cost?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
+          <div class="accordion-body text-light lh-base">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo quibusdam ab esse pariatur natus.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <br>
+  
+  <div class="accordion " id="accordionExample2">
+      <div class="accordion-item">
+        <h2 class="accordion-header " id="headingThree">
+          <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Where Can i Watch?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+          <div class="accordion-body text-light lh-base">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, asperiores.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+  
+  
+  
+  
+  
+       <div class="accordion " id="accordionExample3">
+          <div class="accordion-item">
+            <h2 class="accordion-header " id="headingThree">
+              <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           How do I Cancel?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample3">
+              <div class="accordion-body text-light lh-base">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ipsam porro recusandae consequuntur enim nobis accusantium debitis sit animi eligendi!</p>
+              </div>
+            </div>
+          </div> 
+       </div>
+  
+          <br>
+  
+          <div class="accordion" id="accordionExample4">
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="headingThree">
+                  <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            What Can I Watch On Netflix?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample4">
+                  <div class="accordion-body text-light lh-base">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vel, at ea a facilis quibusdam?</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+  
+  
+              <br>
+  
+              <div class="accordion " id="accordionExample5">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingThree">
+                      <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Is Netflix Good For Kids?
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample5">
+                      <div class="accordion-body text-light lh-base">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati laborum dolor temporibus commodi numquam corporis esse incidunt animi doloribus?</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+  <br>
+  <h2 class="text-center mt-5">Ready to watch? Enter your email to create or restart your membership.</h2>
+  <div class="container ms-3" id="faq-email-entry">
+    <input id="faq-email1" type="email" placeholder="Email address">
+    <button id="btn-get-started1"> Get Started ></button>
+  </div>
+  
+  <br>
+  <br>
+  </div>
+  </div>
+  
+<!-- </div> -->
+  <footer class=" text-lg " >
+    <!-- Grid container -->
+   
+    <div class="container p-4">
+      <!--Grid row-->   <p class=" pt-3">Quesions? call <a>000-800-040-1843</a></p>
+      <div class="row text-start mx-auto ">
+      
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-3 col-sm-4 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase text-light ">Links</h5> -->
+  
+          <ul class="list-unstyled">
+            <li>
+              <a>FAQ</a>
+            </li>
+            <li>
+              <a routerLink="/newsroom" class="text-decoration-none">Invester Relations</a>
+            </li>
+            <li>
+              <a>Privacy</a>
+            </li>
+            <li>
+              <a >Speed Test</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-3 col-sm-4 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase text-light">Links</h5> -->
+  
+          <ul class="list-unstyled">
+            <li>
+              <a >Help Center</a>
+            </li>
+            <li>
+              <a>Jobs</a>
+            </li>
+            <li>
+              <a>Cookie Preference</a>
+            </li>
+            <li>
+              <a>Legal Notices</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-3 col-sm-4 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase text-light">Links</h5> -->
+  
+          <ul class="list-unstyled ">
+            <li>
+              <a>Account</a>
+            </li>
+            <li>
+              <a>Ways to watch</a>
+            </li>
+            <li>
+              <a>Only on Netflix</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-3  col-sm-4 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase text-light ">Links</h5> -->
+  
+          <ul class="list-unstyled">
+            <li >
+              <a  routerLink="/media-center"  class="text-decoration-none" >
+               Media Center</a>
+            </li>
+            <li>
+              <a>Terms of use</a>
+            </li>
+            <li>
+              <a>Contact Us</a>
+            </li>
+          
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+      <select  id="select1">
+        <option class="option-lang">English</option>
+        <option class="option-lang">Hindi</option>
+      </select>
+  <br>
+  <br>
+  <p>Netflix India</p>
+    </div>
+    <!-- Grid container -->
+  
+  
+  </footer>
+  
+
+    <!-- <app-third-page></app-third-page> -->
