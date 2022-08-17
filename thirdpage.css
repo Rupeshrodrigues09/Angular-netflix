@@ -1,0 +1,468 @@
+.select{
+    background-color: transparent;
+    border:0;
+}
+.navbar-brand{
+    right:0;
+} 
+.nav-link{
+    color:black !important;
+}
+ 
+ .invstr-kit-cmpnt:hover{
+    color: #e50914;
+}
+
+.nav-link:hover{
+    color: #e50914 !important;
+}
+.all-Events{
+    color: #e50914;
+}
+nav{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.bg-image{
+    background-image: url('https://s22.q4cdn.com/959853165/files/design/slider/slider1.jpg');
+    /* height: 400px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.third-row-secnd-col{
+    background-color: #e50914;
+    color: transparent;
+}
+
+.third-row-third-col{
+background-color: #221f1f;
+}
+
+.price-delay{
+    color: #adadad;
+}
+.date-time{
+    font-size: 1rem;
+    letter-spacing: 0.07px;
+    font-weight: bold;
+}
+
+
+
+.invstr-kit-catgery:hover{
+    border-bottom: 5px solid #e50914;
+}
+.two-col{
+    box-shadow: 0px 0px 6.02px 0.98px rgb(0 0 0 / 17%);
+    padding: 60px 34px;
+    background: #fff;
+}
+.invstr-event{
+    padding: 20px 5px;
+    font-size: 24px;
+    letter-spacing: 0.12px;
+    line-height: 32px;
+    color: #221f1f;
+}
+.invstr-event:hover{
+    border-left: 2px solid #e50914;
+    color: #e50914;
+}
+
+.finance-update1{
+    background-image: url('https://s22.q4cdn.com/959853165/files/design/financial-releases-bg.png');
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* top: 0; */
+    right: 0;
+    height: 390px;
+    width: 300px;
+}
+.finance{
+    font-size: 2rem;
+    /* width: 465px; */
+    width:auto;
+    height:auto;
+    /* position: relative; */
+}
+
+.rleases-news{
+    font-size: 24px;
+    letter-spacing: 0.12px;
+    line-height: 32px;
+    color: #e50914 !important;
+}
+
+.releases{
+    border-bottom: 8px solid transparent;
+    box-shadow: 0px 0px 6.02px 0.98px rgb(0 0 0/17%);
+}
+.releases:hover{
+    border-bottom: 8px solid #e50914;
+}
+
+.card{
+    border-radius: 0;
+}
+
+
+.bg-image1{
+    background-image: url('https://s22.q4cdn.com/959853165/files/design/quarterly-earnings-bg.jpg');
+}
+/* .mask1{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.img-quick-link{
+    height: 80px;
+}
+
+.quick-lnk-card{
+border: none;
+padding: 20px;
+}
+
+ .border-quick-lnk{
+    border-right:8px solid #e50914;
+    /* padding: 20px; */
+} 
+.quick-lnk-height{
+    padding:80px;
+}
+ .txt-quick-link{
+padding: 60px;
+font-size: 3rem;
+color:#fff;
+padding-top:30px;
+} 
+#quck-link{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: #9933CC!important;
+    }
+    .navbar .navbar-toggler:focus{
+    color: #ff4444;
+    }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .three-row{
+        margin-top: 59px;
+    } 
+    
+.finance-update{
+    width:auto;
+    height:450px ;
+    background-color: #e6e6e6;
+}
+.btn-all-release{
+    margin-left: 100px;
+}
+.cmpny-rofile{
+    font-size: 35px;
+       }
+
+       .scnd-qtr{
+        font-size: 18px;
+    line-height: 24px;
+    }
+    .txt-quick-link{
+        padding: 60px;
+        font-size: 2rem;
+        color:#fff;
+        /* padding-top:100px; */
+        } 
+
+        .qutr-earn{
+            font-size: 22px;
+            }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+    #logo{
+        width: 15% !important;
+        }
+        .three-row{
+            margin-top: 59px;
+        } 
+        
+.finance-update{
+    width:auto;
+    height:450px ;
+    background-color: #e6e6e6;
+}  
+.btn-all-release{
+    margin-left: 300px;
+}
+.cmpny-rofile{
+    font-size: 45px;
+       }
+       .scnd-qtr{
+        font-size: 19px;
+        letter-spacing: 0.12px;
+        line-height: 32px;
+    }
+    .annual-repot-txt{
+        font-size: 19px;
+        line-height: 30px;
+        color: #000;
+    }
+    .txt-quick-link{
+        padding: 60px;
+        font-size: 2rem;
+        color:#fff;
+        padding-top:100px;
+        } 
+        .qutr-earn{
+            font-size: 3rem;
+            }
+            .vid-int{
+                font-size: 14px;
+                letter-spacing: 0.08px;
+            }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    #logo{
+        width: 15% !important;
+        }
+        .three-row{
+            margin-top: 59px;
+        }   
+       
+.finance-update{
+    width:auto;
+    height:450px ;
+    background-color: #e6e6e6;
+} 
+.btn-all-release{
+    margin-left: 300px;
+}
+.releases{
+    padding:20px;
+}
+
+.navbar{
+    font-size: 0.5rem;
+}
+.nav-item{
+    font-size: 9px;
+}
+ .investors{
+    font-size: 15px;
+}
+.cmpny-rofile{
+    font-size: 45px;
+} 
+.scnd-qtr{
+    font-size: 19px;
+    letter-spacing: 0.12px;
+    line-height: 32px;
+}
+.annual-repot-txt{
+    font-size: 19px;
+    line-height: 30px;
+    color: #000;
+}
+.txt-quick-link{
+    padding: 60px;
+    font-size: 2rem;
+    color:#fff;
+    padding-top:100px;
+    } 
+    .qutr-earn{
+        font-size: 3rem;
+        }
+        .vid-int{
+            font-size: 14px;
+            letter-spacing: 0.08px;
+        }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+    #logo{
+        width: 15% !important;
+        }
+
+        .three-row{
+            margin-top: 63px;
+            padding-right: calc(var(--bs-gutter-x) * 0) !important;
+        }
+      
+.finance-update{
+    width:auto;
+    height:450px !important ;
+    background-color: #e6e6e6;
+}
+.btn-all-release{
+    margin-left: 530px;
+}
+
+.navbar{
+    font-size: 1rem;
+}
+.nav-item{
+    font-size: 17px;
+}
+.investors{
+    /* font-size: 14px; */
+    font-family: "NetFlixSans Bold";
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    padding-left: 10px;
+} 
+.cmpny-rofile{
+    font-size: 45px;
+}
+.scnd-qtr{
+    line-height: 250%;
+    font-weight: 200;
+    font-size: 21px;
+}
+.txt-quick-link{
+    padding: 60px;
+    font-size: 2.2rem;
+    color:#fff;
+    padding-top:100px;
+    } 
+.annual-repot-txt{
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+}
+.qutr-earn{
+font-size: 3rem;
+}
+.vid-int{
+    font-size: 17px;
+    letter-spacing: 0.08px;
+}
+}
+
+
+.row{
+    /* margin-top: 63px; */
+    padding-right: calc(var(--bs-gutter-x) * 0) !important;
+    --bs-gutter-x: 0rem;
+}
+.btn-all-release{
+ padding: 0.8em 1.8em;
+ border: 2px solid #e50914;
+ position: relative;
+ overflow: hidden;
+ background-color: #e50914;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ font-family: inherit;
+ color: transparent;
+}
+.btn-all-querter {
+    padding: 0.8em 1.8em;
+    border: 2px solid #e50914;
+    position: relative;
+    overflow: hidden;
+    background-color: #e50914;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: transparent;
+   }
+.btn-all-querter::before {
+ content: '';
+ width: 0;
+ height: 300%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(45deg);
+ background: rgba(0, 0, 0, 0.6);
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+.btn-all-release::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: rgba(0, 0, 0, 0.6);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+.btn-all-release:hover::before {
+ width: 105%;
+}
+.btn-all-querter:hover::before {
+    width: 105%;
+   }
+.btn-all-release:hover {
+ color: transparent;
+}
+.btn-all-querter:hover {
+    color: transparent;
+   }
+   
+   a{
+    /* color: #221f1f; */
+    text-decoration: none;
+   }
+
+   .navbar-toggler:focus-visible,
+   .navbar-toggler:focus{
+    border:none;
+
+    box-shadow: none;
+   }
+
+   .annual-repot-txt{
+   
+    color: #000;
+}
+
+/* .text-reset{
+    background-color: #000;
+    width:200px;
+    height:300px;
+} */
+
+.follow{
+    font-size: 12px;
+    letter-spacing: 0.06px;
+}
+
+.txt-investor{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.two-fourty-nine{
+font-size: 2.5rem;
+font-weight: bold;
+}
+.nasda{
+    font-size: 1rem;
+    font-weight: bold;
+}
