@@ -1,0 +1,22 @@
+import { Component, NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { SecondPageComponent } from './second-page/second-page.component';
+import { FirstPageComponent } from './first-page/first-page.component';
+import { ThirdPageComponent } from './third-page/third-page.component';
+import { SigninComponent } from './signin/signin.component';
+
+
+
+const routes: Routes = [
+  {path:'',component:FirstPageComponent},
+{path:'signin',component:SigninComponent},
+  {path:'media-center',component:SecondPageComponent},
+  {path:'newsroom',component:ThirdPageComponent}
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes,{scrollPositionRestoration: 'enabled'})],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
