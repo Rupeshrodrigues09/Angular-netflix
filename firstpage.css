@@ -1,0 +1,490 @@
+.bg-image {
+    background-image: url('/assets/netflix-bg.jpg'), linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(5, 5, 5, 0.67) 44.01%, rgba(15, 15, 15, 0) 100%);
+    ;
+    /* src/assets/netflix-bg.jpg */
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom: 8px solid #222;
+    top: 0;
+
+}
+
+/* #card-text {
+    font-size: 3.125rem !important;
+} */
+
+/* .radial-gradient{
+  background-image:   radial-gradient(red, green, blue);
+} */
+
+#logo {
+    /* height: 20%; */
+    width: 15% !important;
+}
+
+.navbr {
+    background-color: transparent;
+}
+
+#navbar-button {
+    background-color: #e50914;
+    font-size: 1rem;
+    padding: 7px 17px;
+    border: #e50914;
+}
+
+#select {
+    background-color: transparent !important;
+    font-size: 1rem;
+    padding: 7px 5px;
+    /* border: white !important; */
+    color: white;
+}
+
+
+.option-lang {
+    background-color: transparent !important;
+    color: white;
+}
+
+.card-title {
+
+    line-height: 100%;
+}
+
+/* mat-card{
+    box-shadow: none !important;
+} */
+#card-text {
+    font-size: 1.5rem;
+    font-weight:500;
+}
+
+.card {
+    background-color: transparent;
+    border: none !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* .card-title{
+    font-size: 0rem;
+   }  */
+    #card {
+        background-color: transparent !important;
+        border: none !important;
+        position: relative;
+}
+
+    #email {
+        border: none;
+        width: auto;
+        margin-left: 10px;
+        /* height: 10%; */
+        border-radius: none !important;
+    }
+    .input {
+        width: 300px;
+    }
+
+    #btn-get-started1 {
+        background-color: #e50914;
+        height: 70px;
+        width: 38%;
+        border: #e50914;
+        margin-left: 0px;
+    }
+    #email-submit-btn{
+        background-color: #e50914;
+        height: 38px;
+        width: 32%;
+        border: #e50914;
+        margin-left: 0px;
+        color: #fff;
+        /* font-size: 1.1rem; */
+    }
+    #email-entry{
+        padding: 10px;
+        width: 50%;
+        /* height: 70px; */
+        border: none;
+        color: #fff;
+    }
+  
+    #btn-get-started {
+        background-color: #e50914;
+        
+        border: #e50914;
+        margin-left: 0px;
+    }
+ #card-text{
+        font-size: 1.75rem;
+        font-weight:500;
+    }
+    .watch-anywhere{
+        font-size: 1.125rem;
+    }
+    #faq-header {
+        font-size:1.625rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-title {
+        font-size: 3.125rem !important;
+    }
+
+    #card {
+        background-color: transparent;
+        border: none !important;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 42%;
+
+    }
+
+    #card-ready {
+        width: 157% !important;
+        margin-left: -142px;
+    }
+
+    #email {
+        border: none;
+        width: auto;
+        margin-left: 10px;
+        /* height: 10%; */
+        border-radius: none !important;
+    }
+
+    #btn-get-started {
+        background-color: #e50914;
+        height: auto;
+        /* width: 31%; */
+        border: #e50914;
+        margin-left: 0px;
+    }
+
+    #accordion {
+        width: 60%;
+    }
+
+    .input {
+        width: auto;
+    }
+
+    #btn-get-started1 {
+        background-color: #e50914;
+        height: 70px;
+        width: 31%;
+        border: #e50914;
+        margin-left: 0px;
+        color: white;
+    }
+    #email-submit-btn{
+        background-color: #e50914;
+        height: 49px;
+        width: 23%;
+        border: #e50914;
+        margin-left: 0px;
+        font-size: 1.1rem;
+        color: #fff;
+    }
+    #email-entry{
+        padding: 20px;
+        width: 50%;
+        height: 51px;
+        border: none;
+        color: #fff;
+    }
+    #card-text{
+        font-size: 3rem;
+        font-weight:500;
+    }
+    .watch-anywhere{
+        font-size: 1.625rem;
+    }
+    .ready-to-watch{
+        font-size: 1.2rem;
+    }
+    #faq-header {
+        font-size:2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card-title {
+        font-size: 3.125rem !important;
+    }
+
+    #card {
+        background-color: transparent;
+        border: none !important;
+        position: relative;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 73%;
+
+    }
+
+    #card-ready {
+        width: 157% !important;
+        margin-left: -142px;
+    }
+
+
+
+    /* #faq-email {
+        width: 40%;
+        height: 70px;
+        margin-left: 210px;
+    } */
+
+    #btn-get-started {
+        color: white;
+        background-color: #e50914;
+        border: none;
+         width: 31%;
+        height: 70px; 
+        margin-left: 0px;
+    }
+
+
+    #accordion {
+        width: 60%;
+    }
+
+    .input {
+        width: 700px;
+       }
+
+    #btn-get-started1 {
+        background-color: #e50914;
+        height: 70px;
+        width: 31%;
+        border: #e50914;
+        margin-left: 0px;
+    }
+    #email-submit-btn{
+        background-color: #e50914;
+        height: 57px;
+        width: 18%;
+        border: #e50914;
+        margin-left: 0px;
+        font-size: 1.1rem;
+    }
+    #email-entry{
+        padding: 20px;
+        width: 50%;
+        height: 59px;
+        border: none;
+        color: #fff;
+    }
+    #card-text{
+        font-size: 3rem;
+        font-weight:500;
+    }
+    .watch-anywhere{
+        font-size: 1.625rem;
+    }
+    .ready-to-watch{
+        font-size: 1.2rem;
+    }
+    #faq-header {
+        font-size:2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card-title {
+        font-size: 3.125rem !important;
+    }
+
+    #card {
+        background-color: transparent;
+        border: none !important;
+        position: relative;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 43%;
+        font-weight: 400;
+    }
+
+    #card-ready {
+        width: 157% !important;
+        margin-left: -142px;
+    }
+
+
+/* 
+    #faq-email {
+        width: 40%;
+        height: 70px;
+        margin-left: 270px;
+    } */
+
+    #btn-get-started {
+        color: white;
+        /* background-color: red;
+        border: none;*/
+        /* width:11%;  */
+        height: 70px;
+        margin-left: 0px;
+
+    }
+#input-field-1{
+width:10%;
+
+}
+
+    #accordion {
+        width: 60%;
+    }
+
+    .input {
+        width: 450px;
+    }
+
+    #btn-get-started1 {
+        background-color: #e50914;
+        height: 70px;
+        width: 31%;
+        border: #e50914;
+        margin-left: 0px;
+    }
+    #email-submit-btn{
+        background-color: #e50914;
+        height: 60px;
+        width: 18%;
+        border: #e50914;
+        margin-left: 0px;
+        font-size: 1.1rem;
+    }
+    #email-entry{
+        padding: 20px;
+        width: 50%;
+        height: 62px;
+        border: none;
+    }
+    #card-text{
+        font-size: 3rem;
+        font-weight:500;
+    }
+    .watch-anywhere{
+        font-size: 1.625rem;
+    }
+.ready-to-watch{
+    font-size: 1.2rem;
+}
+#faq-header {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+}
+
+
+.form-control {
+    border-radius: 0% !important;
+}
+
+.accordion-item {
+    background-color: #222;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.625rem;
+}
+
+.accordion-header {
+    background-color: #222;
+
+}
+
+.accordion-button {
+    background-color: #222;
+    font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #000000;
+}
+
+
+
+#faq-email1 {
+    padding: 20px;
+    width: 60%;
+    height: 70px;
+    /* margin-left:270px; */
+}
+
+/* #faq-email {
+    padding: 20px;
+    width: 60%;
+    height: 70px;
+} */
+
+
+
+footer {
+    background-color: #000000;
+    color: #737373;
+}
+
+li,
+a {
+    color: #737373;
+}
+
+#select1 {
+    background-color: transparent !important;
+    font-size: 1rem;
+    padding: 7px 5px;
+    border: 1px solid #737373 !important;
+    color: #737373;
+    /* width:30%; */
+}
+
+.option-lang {
+    background-color: transparent !important;
+    color: #737373 !important;
+}
+
+.text-header {
+    font-size: 2rem;
+}
+
+.text-description {
+    font-size: 1.25rem;
+}
+
+
+
+.hero-image1 {
+    background-color: #000000;
+    border-bottom: 8px solid #222;
+    position: relative;
+}
+
+/* .reverse{
+    flex-direction:row-reverse;
+} */
+
